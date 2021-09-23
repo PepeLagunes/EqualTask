@@ -227,7 +227,7 @@ section.About div p {
   font: weight 3px;
 }
 
-/*----------------------------DESCRIPCION DE PLAN   -------------------------------------------*/
+/*----------------------------DESCRIPCION DE PLAN-------------------------------------------*/
 section.Tipo-de-plan {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,14 +282,16 @@ section.contenido div.tarjeta {
   display: -ms-flexbox;
   display: flex;
   margin: 20px;
-  background-color: #cab07e;
-  border-radius: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   height: 90%;
   max-width: 500px;
+  border-radius: 32px;
+  background: linear-gradient(315deg, #b3d8d2, #d5fff9);
+  -webkit-box-shadow: -41px -41px 82px #9bbbb6, 41px 41px 82px #f3ffff;
+          box-shadow: -41px -41px 82px #9bbbb6, 41px 41px 82px #f3ffff;
 }
 
 section.contenido div.tarjeta div.tarjetaimg {

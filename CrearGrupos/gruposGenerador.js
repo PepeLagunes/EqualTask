@@ -74,7 +74,7 @@ function newGroupGenerator(event){
     //Generar Grupo 
     function createGroup(subevent){
         subevent.preventDefault();
-        if(inputGroupName.value != ""){
+        if (inputGroupName.value != "") {
             //Generando elemento li
             let newGroup = document.createElement('li')
             newGroup.classList.add('new-group-item')
@@ -88,7 +88,6 @@ function newGroupGenerator(event){
             inputGroupName.value= "";
             divFormulario.style.display = "none";
             aggGroupBtn.addEventListener('click', newGroupGenerator)
-            }
+        }
     }
 }
-

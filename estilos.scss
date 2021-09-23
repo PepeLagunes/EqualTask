@@ -141,7 +141,6 @@ section.About{
   justify-content: space-evenly;
   align-items: center;
   background-color: $secondary-color;
-   
     div{
         display: flex;
         justify-content: space-around;
@@ -160,7 +159,7 @@ section.About{
         }
     }
 }
-/*----------------------------DESCRIPCION DE PLAN   -------------------------------------------*/
+/*----------------------------DESCRIPCION DE PLAN-------------------------------------------*/
 section.Tipo-de-plan{
     display: flex;
     justify-content: start;
@@ -198,11 +197,15 @@ section.contenido{
     div.tarjeta{
         display: flex;
         margin: 20px;
-        background-color: rgb(202, 176, 126);
-        border-radius: 30px;
         flex-direction: column;
         height: 90%;
         max-width: 500px;
+        
+        border-radius: 32px;
+        background: linear-gradient(315deg, #b3d8d2, #d5fff9);
+        box-shadow:  -41px -41px 82px #9bbbb6,
+                       41px 41px 82px #f3ffff;
+
         div.tarjetaimg{
             display: flex;
             margin: 0px;
